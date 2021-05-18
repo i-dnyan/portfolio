@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Dnyaneshwar's Portfolio</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/5.0.1/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/css/portfolio.css}"/>
+</head>
+<body>
+	<div class="container">
+		<div class="intro">
+			<img class="profile-image" th:src="@{/images/profile-image.jpg}" alt="Avatar">
+			<h1 class="display-1 text-center" th:text="'Dnyaneshwar Ingale'"></h1>
+			<h1 class="display-6 text-center">Java | Spring Boot | VMWare SMARTS | Telecom OSS Service Assurance</h1>
+		</div>
+		
+		<div class="skill-set">
+			<div class="row row-cols-1 row-cols-md-4 g-4">
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Java</h5>
+							<p class="card-text">8 years of experience in developing and maintaining Java applications.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Spring Boot</h5>
+							<p class="card-text">3 years of experience in developing and maintaining Spring applications.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">VMWare SMARTS</h5>
+							<p class="card-text">6.5 years of experience in developing and maintaining VMWare SMARTS application.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Shell/Perl Scripting</h5>
+							<p class="card-text">6 years of experience in developing and maintaining Java applications.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+    
+    <script type="text/javascript" th:src="@{webjars/bootstrap/5.0.1/js/bootstrap.min.js}"></script>
+</body>
+</html>
