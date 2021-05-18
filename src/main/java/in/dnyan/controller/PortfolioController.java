@@ -12,7 +12,7 @@ public class PortfolioController {
 
 	@GetMapping("/")
 	public String rootContext() {
-		LOG.info("Inside rootContext");
+		LOG.info("Inside rootContext, redirecting to home");
 		return "home";
 	}
 }
