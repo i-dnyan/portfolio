@@ -14,13 +14,21 @@
 <body>
 	<div class="container">
 		<div class="intro">
-			<img class="profile-image" th:src="@{/images/profile-image.jpg}" alt="Avatar">
+			<img class="rounded-circle profile-image" th:src="@{/images/profile-image.jpg}" alt="Avatar">
 			<h1 class="display-1 text-center" th:text="'Dnyaneshwar Ingale'"></h1>
-			<h1 class="display-6 text-center">Java | Spring Boot | VMWare SMARTS | Telecom OSS Service Assurance</h1>
+			<!-- <h1 class="display-6 text-center">Java | Spring Boot | VMWare SMARTS | Telecom OSS Service Assurance</h1> -->
+		</div>
+		
+		<div class="text-center skill-set">
+			<img th:src="@{/images/java.png}" class="border border-1 rounded-circle skill" alt="Java">
+			<img th:src="@{/images/springboot.png}" class="border border-1 rounded-circle skill" alt="Spring Boot">
+			<img th:src="@{/images/smarts.png}" class="border border-1 rounded-circle skill" alt="VMware SMARTS">
+			<img th:src="@{/images/bash.png}" class="border border-1 rounded-circle skill" alt="Linux Scripting">
+			<img th:src="@{/images/bootstrap.png}" class="border border-1 rounded-circle skill" alt="Bootstrap">
 		</div>
 		
 		<div class="skill-set">
-			<div class="row row-cols-1 row-cols-md-4 g-4">
+			<!-- <div class="row row-cols-1 row-cols-md-4 g-4">
 				<div class="col">
 					<div class="card">
 						<div class="card-body">
@@ -53,7 +61,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		<!-- end : Skill Sets -->
 		
